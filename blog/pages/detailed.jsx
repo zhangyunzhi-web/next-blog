@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
 import { Row, Col, Breadcrumb, Affix } from 'antd'
-import ReactMarkdown from 'react-markdown'
-import { marked } from 'marked'
+import  {marked}  from 'marked'
 import hljs from "highlight.js";
 import 'highlight.js/styles/monokai-sublime.css';
-import MarkNav from 'markdown-navbar';
 import 'markdown-navbar/dist/navbar.css';
 import Header from '../components/Header'
 import Author from '../components/Author'
@@ -60,12 +58,12 @@ const Detailed = (detail) => {
 
             <div>
               <div className="detailed-title">
-                {detail.title}
+                {detail.title|| '-'}
               </div>
 
               <div className="list-icon center">
                 <span>{detail.addTime || '-'}</span>
-                <span> {detail.typeName}</span>
+                <span> {detail.typeName|| '-'}</span>
                 {/* <span><Icon type="fire" /> 5498人</span> */}
               </div>
 
