@@ -5,10 +5,10 @@ import  {marked}  from 'marked'
 import hljs from "highlight.js";
 import 'highlight.js/styles/monokai-sublime.css';
 import 'markdown-navbar/dist/navbar.css';
-import Header from '../components/Header'
-import Author from '../components/Author'
-import Advert from '../components/Advert'
-import Footer from '../components/Footer'
+import Header from '../components/Header.jsx'
+import Author from '../components/Author.jsx'
+import Advert from '../components/Advert.jsx'
+import Footer from '../components/Footer.jsx'
 import '../static/style/pages/detailed.css'
 import Tocify from '../components/tocify.tsx'
 import servicePath from '../config/apiUrl'
