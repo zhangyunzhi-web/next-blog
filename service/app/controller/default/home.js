@@ -59,7 +59,6 @@ class HomeController extends Controller{
         'WHERE type_id='+id
         const result = await this.app.mysql.query(sql)
         this.ctx.body={data:result};
-    
     }
 
 
