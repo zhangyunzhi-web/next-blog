@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-function Login(){
+const Login=()=>{
     return (
         <div>
            我是登录页面 
